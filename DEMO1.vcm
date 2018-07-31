@@ -13,6 +13,13 @@
       <original-environment-directory>DEMO1/build/173974623</original-environment-directory>
     </config>
   </environment>
+  <environment name="FLOAT" type="UNIT">
+    <language>1</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>DEMO1/build/170484257</original-environment-directory>
+    </config>
+  </environment>
   <environment name="MANAGER" type="UNIT">
     <language>1</language>
     <is-monitored>0</is-monitored>
@@ -22,6 +29,7 @@
   </environment>
   <group name="Group">
     <environment name="DATABASE"/>
+    <environment name="FLOAT"/>
     <environment name="MANAGER"/>
   </group>
   <compiler>
