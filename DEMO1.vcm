@@ -6,6 +6,13 @@
   </config>
   <project-id>1533015189</project-id>
   <factor-config-options>0</factor-config-options>
+  <environment name="AIRPORT" type="UNIT">
+    <language>1</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>DEMO1/build/2143102751</original-environment-directory>
+    </config>
+  </environment>
   <environment name="DATABASE" type="UNIT">
     <language>1</language>
     <is-monitored>0</is-monitored>
@@ -28,6 +35,7 @@
     </config>
   </environment>
   <group name="Group">
+    <environment name="AIRPORT"/>
     <environment name="DATABASE"/>
     <environment name="FLOAT"/>
     <environment name="MANAGER"/>
